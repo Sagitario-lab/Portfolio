@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+
+
+
+.Experiences-cont{
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to bottom,#11141B,rgba(32, 16, 34, 0.993),#11141B);
+    
+    height: 100%;
+    width: 100%;
+    margin-bottom: 2.1rem;
+}
+
+.cont-exp{
+    width: 100%;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.Experiences{
+    color: blueviolet;
+    padding: 0 2rem;
+    width: 40%;
+    display: flex;   
+    flex-wrap : wrap;
+    
+    align-items: center; 
+}
+.Exp-Ttl{
+    font-size: 4rem;
+}
+.Exp-txt{
+    font-size:1.9rem;
+    color:  rgba(255, 255, 255, 0.829);
+    
+}
+.uwu{
+    width: 100%;
+    font-size: 1.5rem;
+}
+.awa{
+    display: flex;
+}
+.Exp-bars{
+    color: white;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+@media (max-width:480px){
+    .Experiences{
+        width:100%
+    }
+    .Exp-bars{
+        width:100%;
+        padding:0.5rem;
+    }
+}
+
+@media (max-width:768px){
+    .Experiences{
+        width:100%;
+        justify-content: center;
+    }
+    .Exp-bars{
+        width:100%;
+        padding:0.5rem;
+    }
+    .Exp-Ttl{
+        text-align: center;
+    }
+}
+
+@media (max-width:968px){
+    .Experiences{
+        width:100%;
+        justify-content: center;
+    }
+    .Exp-bars{
+        width:100%;
+        padding:0.5rem;
+    }
+    .Exp-Ttl{
+        text-align: center;
+    }
+}
+
+

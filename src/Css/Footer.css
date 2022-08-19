@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+
+.flexardo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+
+.Cont-Text{
+    width: 70%;
+    height: 30%;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px #ff00d4 ;
+}
+
+
+.cont-footer{
+    width: 100%;
+    padding: 1.2rem;
+    text-align: center;
+    color: #ff00d4;
+    border-bottom: 2px solid #ff00d434;
+    font-size: 1.9rem;
+}
+
+
+.input-grup{
+    width:50%;
+    height:20vh;
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-direction: column;
+
+}
+
+
+.Cont-input{
+    display: flex;
+    width:70% ;
+    padding: 1rem;
+    justify-content: space-evenly;
+    
+}
+
+
+
+
+  
+.inputs{
+    width: 100%;
+    background-color: #11141B;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #ff00d4; 
+}
+
+
+
+.p-error{
+    color: white;
+    font-size: large;
+
+}
+
+.btn-enviar{
+    background-color: #be16a2ad !important;
+    font-weight: 600;
+    font-family: 'Cinzel Decorative', cursive !important;
+    width: 5rem !important;
+    height: 3rem !important;
+    align-self: center !important;
+    border: 1px solid blueviolet !important;
+}
+
+
+.p-button:hover{
+    background-color: #bd55ab;
+    cursor: pointer;
+}
+
+
+.Cont-name-email{
+   
+    width: 100%;
+    
+ 
+}
+
+.p-inputtext{
+    background-color: #11141b00 !important;
+    border-color: #ff00d4 !important;
+}
+
+.input-title{
+    color: white !important;
+    font-size: 1rem !important;
+    font-weight: 550 !important;
+}
+
+
+.p-float-label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#mensaje{
+    background-color: #11141B;
+    border-color: #ff00d4;
+    width:100% ;
+    height: 70% ; 
+    color: white;
+}
+
+
+@media (max-width:480px){
+    .flexardo{
+        flex-direction: column ;
+    }
+    .Cont-input{
+        flex-direction: column;
+    }
+    .inputs-text{
+        width: 100%;
+    }
+    .inputs{
+        width: 100%;
+        
+    }
+    .p-float-label{
+        width: 100%;
+        height: 50%;
+        padding: 0.5rem;
+    }
+    .input-grup{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    #mensaje{
+        width: 100% !important;
+    }
+    
+}
+
+
+@media (max-width:768px){
+    .flexardo{
+        flex-direction: column ;
+    }
+    .Cont-input{
+        flex-direction: column;
+    }
+    .inputs-text{
+        width: 100%;
+    }
+    .inputs{
+        width: 100%;
+    }
+    .p-float-label{
+        width: 100%;
+        align-items: flex-start;
+        margin-bottom: 0.5rem;
+    }
+    .input-grup{
+        width: 100%;
+    }
+    #mensaje{
+        width: 100% !important;
+    }
+    .Cont-Text{
+        width: 80%;
+    }
+}
+
+
+
+
+
